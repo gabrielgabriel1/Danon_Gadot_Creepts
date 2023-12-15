@@ -1,0 +1,8 @@
+[gd_resource type="AudioBusLayout" load_steps=2 format=3 uid="uid://b1m7w6vytlc2b"]
+
+[sub_resource type="AudioEffectDistortion" id="AudioEffectDistortion_bx4bh"]
+resource_name = "Distortion"
+
+[resource]
+bus/0/effect/0/effect = SubResource("AudioEffectDistortion_bx4bh")
+bus/0/effect/0/enabled = true
